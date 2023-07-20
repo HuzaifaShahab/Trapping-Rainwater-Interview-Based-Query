@@ -1,7 +1,7 @@
 public class TrapingRainWater {
     public static int trappingRainwater (int []height){
         int waterLevel ;            // wL = min of (Bar-Heights)
-        int waterTrapped=0;        // wT = wL-Bar-Height
+        int waterTrapped=0;        // wT = wL-BarHeight
 
         int []leftMax = new int[height.length] ;
             leftMax[0] = height[0] ;
